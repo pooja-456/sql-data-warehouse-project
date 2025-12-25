@@ -6,10 +6,12 @@ Create Bronze Layer Tables
 Script Purpose:
 
     This script creates all required tables in the 'bronze' schema.
+
     It first checks whether each table already exists and drops it
     to avoid conflicts.
 
     The tables store raw data loaded from CRM and ERP source files.
+
     These tables represent the initial (bronze) stage of the data
     warehouse, where data is stored as-is before any transformation.
 ======================================================================
