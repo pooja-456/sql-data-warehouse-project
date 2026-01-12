@@ -79,6 +79,6 @@ select
  sd.sls_price as price
 from silver.crm_sales_details sd
 left join gold.dim_products pr on sd.sls_prd_key=pr.product_number
-left join gold.dim_customers cu on sd.sls_cust_id=cu.customer_key
+left join gold.dim_customers cu on sd.sls_cust_id=cu.customer_id
 
 
